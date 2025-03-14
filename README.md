@@ -5,81 +5,45 @@ Welcome to the CyberSec-Scripts repository! This collection showcases various Py
 ## 🐍 Python Scripts
 
 ### 📄 **Text and String Analysis**
-- **Text Parsing and Extraction:** Extract and analyze text and cybersecurity-related data from files.
-- **Malware Signature Identification:** Parsing logs and files to identify malware signatures and threats.
+- **Text Parsing and Analysis** [`Simple String`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK1_script.py), [`Searching for Digital Images with Python`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK4-5_script.py)
+  - Convert and analyze strings: character counting, word frequency, alphabetical sorting, keyword search.
+  - Output images [`Simple String`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK1_screenshot.jpg), [`Searching for Digital Images with Python`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK4-5.png)
+
+### 📦 **Malware Identification & File Parsing**
+- **Binary File Parsing and String Extraction** [`File Processing`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK2-2_script.py)
+  - Extract critical information from binary files to identify potential threats or malicious indicators.
+  - Output Images [`File Processing`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK2-2_script.jpg)
 
 ### 📊 **Metadata and File Hashing**
-- **File Metadata Extraction & Integrity Checks:** Extract metadata and perform MD5 hashing for verifying file integrity.
-- **Binary and Memory Dump Analysis:** Extract and analyze unique strings from memory dumps to support forensic investigations.
+- **Metadata Extraction & Integrity Check** [`File Hashing`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK2-3_script.py). [`File Processing`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK3-4_script.py), [`Searching for Digital Images`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK4-5_script.py), [`Data Acquistion`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK4-6.py)
+  - Extract metadata and calculate cryptographic hashes (MD5, SHA-256, SHA-512) for verifying file integrity.
+  - Output Images [`File Hashing`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK2-3_screenshot.jpg), [`File Processing`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK3-4_script.png), [`Searching for Digital Images`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK4-5.png), [`Data Acquistion`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK-6.png)
+
+### 🔍 **Cybersecurity Data Extraction**
+- [`Email & URL Extraction'](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK5-7_script.py)
+  - Extract and analyze email addresses and URLs from binary or textual sources.
+  - Output Image [`Email & URL Extraction'](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK5-7.png)
+- [`Memory Dump String Analysis`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK5-8_script.py)
+  - Extract and analyze unique strings from memory dumps for forensic investigations.
+  - Output Image [`Memory Dump String Analysis`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK5-8.png)
 
 ### 🌐 **Web Reconnaissance & Scraping**
-- **Website Data Extraction:** Automate scraping websites for cybersecurity reconnaissance, extracting URLs, emails, and metadata.
+- [`Website Data Extraction`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK6-9_script.py)
+  - Automate web scraping for cybersecurity reconnaissance, extracting URLs, emails, and metadata.
+  - Output Image [`Website Data Extraction`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK6-9.png)
 
 ### 📡 **Network & Socket Programming**
-- **Secure Network Communication:** Python scripts demonstrating secure socket-based communication between clients and servers.
-- **Hashing & Encryption:** Secure data integrity using MD5 hashing.
-
-## 📌 Project Files
-
-- **String & Text Analysis:**
-  - `metoyerD_WK1_script.py`
-  - `metoyerD_WK4-5_script.py`
-
-- **Malware Identification & File Parsing:**
-  - `metoyerD_WK2-2_script.py`
-  - `metoyerD_WK2-3_script.py`
-
-- **Metadata and Hashing:**
-  - `metoyerD_WK3-4_script.py`
-  - `metoyerD_WK4-5_script.py`
-
-- **Cybersecurity Data Extraction:**
-  - `metoyerD_WK5-7_script.py`
-  - `metoyerD_WK5-8_script.py`
-
-- **Web Reconnaissance & Data Scraping:**
-  - `metoyerD_WK6-9_script.py`
-
-- **Secure Network Communications & Hashing:**
-  - `metoyerD_WK7-10_script.py`
-  - `metoyerD_WK7-11_script.py`
+- **Secure Network Communication** [`TCP Server`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK7-10_script.py), [`TCP Client`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK7-11_script.py)
+  - Secure message transmission and MD5 hashing for data validation.
+  - Output Image [`TCP Client connecting to TCP Server`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/metoyerD_WK7-10%2611.png)
 
 ## ⚙️ Assembly Language Scripts
 
-- **Basic I/O and Arithmetic Operations:**
-  - `Exercise_2_1.asm`
-  - `Exercise_2_5.asm`
+- **Basic I/O and Arithmetic Operations**
+  - Demonstrating system-level programming and basic computations (`Exercise_2_1.asm`, `Exercise_2_5.asm`).
 
 ## 🧰 Tools & Technologies
 - **Languages:** Python, Assembly
 - **Environments:** Wing IDE, Visual Studio, MASM
-- **Libraries & Techniques:** Regex, hashlib, PrettyTable, socket programming
+- **Libraries:** hashlib, socket, Regular Expressions, PrettyTable
 
-## 📁 Project Structure
-```
-CyberSec-Scripts/
-├── Python-Scripts
-│   ├── String-Analysis
-│   ├── Malware-Identification
-│   ├── Metadata-Hashing
-│   └── Network-Communications
-├── Assembly-Scripts
-│   ├── Basic-IO
-│   └── Arithmetic-Operations
-└── Documentation-and-Screenshots
-```
-
-## 🚩 How to Use
-Clone the repository:
-```bash
-git clone https://github.com/DDMetoyer/CyberSec-Scripts.git
-```
-Navigate to the respective directory for each script and follow instructions provided within the script files.
-
-## ⚠️ Disclaimer
-These scripts are developed solely for educational and ethical research purposes. Unauthorized use or misuse is strictly prohibited and may result in legal consequences.
-
-## 📫 Contact & Collaboration
-- **GitHub:** [github.com/DDMetoyer](https://github.com/DDMetoyer)
-- **LinkedIn:** [linkedin.com/in/devantemetoyer](https://linkedin.com/in/devantemetoyer)
-- **Email:** your.email@example.com
