@@ -40,8 +40,7 @@ Welcome to the CyberSec-Scripts repository! This collection showcases various Py
 ## ⚙️ Assembly Language Scripts
 
 - **Basic I/O and Arithmetic Operations**
-  - Demonstrating system-level programming and basic computations (`Exercise_2_1.asm`, `Exercise_2_5.asm`).
-
+  - Demonstrating system-level programming and basic computations [`1`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/Exercise_1_3.asm) [`2`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/Exercise_2_1.asm) [`3`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/Exercise_2_1.png) [`4`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/Exercise_2_2.png) [`5`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/Exercise_2_3.png) [`6`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/Exercise_2_4.png) [`7`](https://github.com/DDMetoyer/CyberSec-Scripts/blob/main/Exercise_2_5.asm)
 ## 🧰 Tools & Technologies
 - **Languages:** Python, Assembly
 - **Environments:** Wing IDE, Visual Studio, MASM
