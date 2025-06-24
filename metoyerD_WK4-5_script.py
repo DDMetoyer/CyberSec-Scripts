@@ -1,15 +1,5 @@
 '''
-Devante Metoyer
-02/16/25
-Assignment #5
-Assignment - Searching for Digital Images with Python
-
-Complete the script below to do the following:
-Utilizing the Python Image Library (PIL) and the examples provided during this week's lecture develop a Python script that accurately identifies digital images.
-
-Extract testimages.zip into your Assignment5 directory.
-
-Develop a script that:
+ Searching for Digital Images with Python:
 
 1) Prompts the user for a directory path to search
 
@@ -17,22 +7,7 @@ Develop a script that:
 
 3) Iterate through each file in that directory and examine it using PIL.
 
-4) Generate a PrettyTable report of your search results (sample shown here)
-
-+---------------------------------------+-
-| File                  | Ext  | Format | Width | Height | Mode |
-+---------------------------------------+------+--------+-------+
-| .\photos\PH01236U.BMP | .BMP | BMP    | 216    | 143   | P |
-| .\photos\PH02039U.BMP | .BMP | BMP    | 216    | 143   | P |
-| .\photos\PH02752U.BMP | .BMP | BMP    | 216    | 142   | P |
-| .\photos\38467giu.gif | .gif | GIF    | 300    | 212   | P |
-| .\photos\AG00004_.GIF | .GIF | GIF    | 140    | 135   | P |
-
-Submit:
-
-1) Your Python script
-
-2) A screenshot of the successful execution and output
+4) Generate a PrettyTable report of your search results 
 '''
 
 import os
