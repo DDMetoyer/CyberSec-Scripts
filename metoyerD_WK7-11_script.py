@@ -1,11 +1,3 @@
-'''
-Devante Metoyer
-03/08/25
-Assignment #11
-Assignment - Create TCP Client
-
-'''
-
 #!/usr/bin/env python3
 """
 Simple TCP Client for MD5 Hash Server
