@@ -1,8 +1,5 @@
 '''
-Devante Metoyer
-02/23/25
-Assignment #7
-Assignment - Extract e-mail address anf urls from the memory dump provided
+Extract e-mail address anf urls from the memory dump provided
 
 '''
 
