@@ -1,11 +1,3 @@
-'''
-Devante Metoyer
-03/08/25
-Assignment #10
-Assignment - Create a TCP Server
-
-'''
-
 #!/usr/bin/env python3
 """
 Simple TCP MD5 Server
