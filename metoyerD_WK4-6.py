@@ -1,37 +1,11 @@
-'''
-EXIF Data Acquistion Example
-'''
 
 '''
-Using this script provide as a baseline.
-Expand the script as follows:
-
 1) Allow the user to enter a path to a directory containing jpeg files.
 2) Using that path, process all the .jpg files contained in that folder (use the testimages.zip set of images)
 3) Extract the GPS coordinates for each jpg (if they exist)
 4) Use the extracted GPS coordinates and put them on a map (manually or programmatically using a CSV file)
 
-NOTE: There are several ways to do this, however, the easiest method would be to use something like the MapMaker App, at https://mapmakerapp.com/
-      you can either manually enter the lat/lon values your script generates or you can place your results in a CSV file and upload
-      the data to the map.
-      
-Submit:
-
-1) Your Python script
-
-2) A screenshot of the successful execution and output
-
-3) A screenshot of a map with the extracted GPS coordinates marked on it
-
 '''
-# Usage Example:
-# python Assignment6.py
-#
-# Requirement: Python 3.x
-#
-# Requirement: 3rd Party Library that is utilized is: PILLOW
-#                   pip install PILLOW  from the command line
-#                   this is already installed in the Virtual Desktop
 
 
 ''' LIBRARY IMPORT SECTION '''
