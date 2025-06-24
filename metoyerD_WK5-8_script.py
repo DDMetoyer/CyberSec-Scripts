@@ -1,8 +1,5 @@
 '''
-Devante Metoyer
-02/23/25
-Assignment #8
-Assignment - Process a memory dump and extract all relevant strings
+ Process a memory dump and extract all relevant strings
 
 '''
 
