@@ -1,15 +1,6 @@
-
 '''
-Devante Metoyer
-02/01/25
-Assignment 3
-Assignment - File Hashing
-'''
-
-'''
-Complete the script below to do the following:
-1) Add your name, date, assignment number to the top of this script
-2) Using the os library and the os.walk() method 
+Script below to do the following:
+1) Using the os library and the os.walk() method 
    a) Create a list of all files
    b) Create an empty dictionary named fileHashes 
    c) Iterate through the list of files and
@@ -19,13 +10,6 @@ Complete the script below to do the following:
         value = filepath
     d) Iterate through the dictionary
        - print out each key, value pair in a PrettyTable format
-    
-3) Submit
-   NamingConvention: lastNameFirstInitial_Assignment_.ext
-   for example:  alharthiD_WK1_script.py
-                 alharthiD_WK1_screenshot.jpg
-   A) Screenshot of the results in WingIDE
-   B) Your Script
 '''
 
 import os
