@@ -1,15 +1,7 @@
 
 '''
-Devante Metoyer
-02/01/25
-Assignment 2
-Week Two Assignment - File Processing
-'''
-
-'''
-Complete the script below to do the following:
-1) Add your name, date, and assignment number to the top of this script
-2) Open the file redhat.txt 
+File Processing:
+1) Open the file redhat.txt 
    a) Iterate through each line of the file
    b) Split eachline into individual fields (hint str.split() method)
    c) Examine each field of the resulting field list
@@ -18,12 +10,7 @@ Complete the script below to do the following:
       sort the set 
       iterate through the set of worm names
       print each unique worm name 
-3) Submit
-   NamingConvention: lastNameFirstInitial_Assignment_.ext
-   for example:  alharthiD_WK2-1_script.py
-                 alharthiD_WK2-2_screenshot.jpg
-   A) Screenshot of the results in WingIDE
-   B) Your Script
+
 '''
 
 import os
