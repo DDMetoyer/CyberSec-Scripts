@@ -1,12 +1,6 @@
 '''
-Devante Metoyer
-02/08/25
-Assignment #4
-Assignment - File Processing Object
-
-Complete the script below to do the following:
-1) Add your name, date, assignment number to the top of this script
-2) Create a class named FileProcessor
+File Processing Object:
+1) Create a class named FileProcessor
    a) The init method shall:
       i) Verify the file exists
       ii) Extract key file system metadata from the file and store them as instance attributes
@@ -17,20 +11,13 @@ Complete the script below to do the following:
       i) Print the metadata
       ii) Print the hex representation of the header
       
-3) Demonstrate the use of the new class
+2) Demonstrate the use of the new class
    a) Prompt the user for a directory path
    b) Using the os.listdir() method to extract the filenames from the directory path
    c) Loop through each filename and instantiate an object using the FileProcessor class
    d) Using the object
       i) Invoke the get_file_header method
       ii) Invoke the print_file_details method
-      
-4) Submit
-   NamingConvention: lastNameFirstInitial_Assignment_.ext
-   for example:  alharthiD_WK3_script.py
-                 alharthiD_WK3_screenshot.jpg
-   A) Screenshot of the results in WingIDE
-   B) Your Script
 '''
 
 import os
