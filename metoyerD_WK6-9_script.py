@@ -1,11 +1,3 @@
-'''
-Devante Metoyer
-03/01/25
-Assignment #9
-Assignment - Process a target website and extract key information and suspicious content
-
-'''
-
 #!/usr/bin/env python3
 """
 Web Page Evidence Extractor
