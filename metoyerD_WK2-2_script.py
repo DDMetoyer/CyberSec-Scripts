@@ -6,10 +6,7 @@ File Processing:
    b) Split eachline into individual fields (hint str.split() method)
    c) Examine each field of the resulting field list
    d) If the word "worm" appears in the field then add the worm name to the set of worms
-   e) Once you have processed all the lines in the file
-      sort the set 
-      iterate through the set of worm names
-      print each unique worm name 
+   e) print each unique worm name 
 
 '''
 
